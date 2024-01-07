@@ -1,3 +1,11 @@
+### Technologies
+* Python
+* AWS redshift
+* PostgreSql
+* AWS S3
+* Apache Airflow
+* Pandas, Boto3
+  
 ### Project Overview
 
 - This project will introduce concepts of Apache Airflow. I create my own custom operators to perform tasks such as staging the data, filling the data warehouse, and running checks on the data as the final step.

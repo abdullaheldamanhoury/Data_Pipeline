@@ -33,7 +33,7 @@
 #### I build four different operators that will stage the data, transform the data, and run checks on data quality.
 
 1. Stage Operator:
-    - The stage operator is expected to be able to load any JSON formatted files from S3 to Amazon Redshift. The operator creates and runs a SQL COPY statement based on the parameters provided. The operator's parameters should specify where in S3 the file is loaded and what is the target table.
+    - The stage operator is expected to be able to load any JSON formatted files from S3 to Amazon Redshift. The operator creates and runs an SQL COPY statement based on the parameters provided. The operator's parameters should specify where in S3 the file is loaded and what is the target table.
 
     - The parameters should be used to distinguish between JSON file. Another important requirement of the stage operator is containing a templated field that allows it to load timestamped files from S3 based on the execution time and run backfills.
 

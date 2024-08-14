@@ -8,7 +8,7 @@
   
 ### Project Overview
 
-- This project will introduce concepts of Apache Airflow. I create my own custom operators to perform tasks such as staging the data, filling the data warehouse, and running checks on the data as the final step.
+- This project introduces concepts of Apache Airflow. I create my own custom operators to perform tasks such as staging the data, filling the data warehouse, and running checks on the data as the final step.
 
 ### Datasets
 
